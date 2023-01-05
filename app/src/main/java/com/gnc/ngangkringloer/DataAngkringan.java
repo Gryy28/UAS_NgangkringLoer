@@ -8,7 +8,7 @@ public class DataAngkringan {
 
     };
 
-    public  static ArrayList<ModelAngkringan> ambilDataPahlawan(){
+    public  static ArrayList<ModelAngkringan> ambilDataAngkringan(){
         ArrayList<ModelAngkringan> dataAngkringan = new ArrayList<>();
         for (String[] varData:data){
             ModelAngkringan model = new ModelAngkringan();
